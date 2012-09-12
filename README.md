@@ -32,7 +32,7 @@ coolsms({
   if (err) {
     console.log(err);
   }
-  console.log(body);
+  console.log(result);
 });
 
 ```
