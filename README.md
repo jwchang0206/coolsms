@@ -21,12 +21,12 @@ or
 var coolsms = require('coolsms');
 
 coolsms({
-  ssl: true, // true | false
+  ssl: true,            // true | false
   user: 'username',     // CoolSMS username
   password: 'password', // CoolSMS password
   to: '01000000000',    // Recipient Phone Number
   from: '01000000000',  // Sender Phone Number
-  text: 'Hello World!'     // Text to send
+  text: 'Hello World!'  // Text to send
 }, function(err, result) {
   // error message in String and result information in JSON
   if (err) {
