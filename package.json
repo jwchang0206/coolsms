@@ -1,0 +1,17 @@
+{
+  "name": "coolsms",
+  "description": "coolsms for Node.js",
+  "version": "1.0.0",
+  "author": "InspiredJW <inspired.jw@gmail.com>",
+  "keywords": ["coolsms", "sms", "text", "mobile"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InspiredJW/coolsms.git"
+  },
+  "dependencies": {
+    "request": "*",
+    "underscore": "*"
+  },
+  "main": "index",
+  "engines": { "node": ">= 0.6.0" }
+}

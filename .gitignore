@@ -1,0 +1,9 @@
+*.db
+.DS_Store
+.project
+ssl
+node_modules
+.metadata
+*.tmproj
+*.sublime-project
+dump.rdb
